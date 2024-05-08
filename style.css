@@ -1104,11 +1104,11 @@ nav#navbar ul.menu-list {
 
 @media only screen and (max-width: 540px) {
     #billboard .banner-content {
-        left: -80px;
+        left: -35px;
     }
 
     .banner-content h2.section-title {
-        font-size: 4em;
+        font-size: 3em;
     }
 
     .banner-content p {
