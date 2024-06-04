@@ -37,11 +37,18 @@ setTimeout(function() {
 		var init = function init() {
 		  body = document.querySelector('body');
 		  menu = document.querySelector('.menu-btn');
-		  menuItems = document.querySelectorAll('.nav__list-item');
+		  menuItems = document.querySelector('.about-menu');
 		  applyListeners();
+			applyListeners2()
 		};
 		var applyListeners = function applyListeners() {
 		  menu.addEventListener('click', function () {
+		    return toggleClass(body, 'nav-active');
+		  });
+		};
+
+		var applyListeners2 = function applyListeners2() {
+		  menuItems.addEventListener('click', function () {
 		    return toggleClass(body, 'nav-active');
 		  });
 		};

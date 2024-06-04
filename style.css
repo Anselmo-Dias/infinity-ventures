@@ -246,19 +246,12 @@ h6.light,
     --heading-color: #fff;
 }
 
-/* end of Bootstrap Color Theme */
-
-/*--------------------------------------------------------------
-This is main CSS file that contains custom style rules used in this template
---------------------------------------------------------------*/
 
 a {
     text-decoration: none;
 }
 
 
-/*----- 6.1 Preloader
---------------------------------------------------------------*/
 #overlayer {
     width: 100%;
     height: 100%;
