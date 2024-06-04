@@ -246,19 +246,12 @@ h6.light,
     --heading-color: #fff;
 }
 
-/* end of Bootstrap Color Theme */
-
-/*--------------------------------------------------------------
-This is main CSS file that contains custom style rules used in this template
---------------------------------------------------------------*/
 
 a {
     text-decoration: none;
 }
 
 
-/*----- 6.1 Preloader
---------------------------------------------------------------*/
 #overlayer {
     width: 100%;
     height: 100%;
@@ -1102,20 +1095,7 @@ nav#navbar ul.menu-list {
     }
 }
 
-@media only screen and (max-width: 540px) {
-    #billboard .banner-content {
-        left: -35px;
-    }
 
-    .banner-content h2.section-title {
-        font-size: 3em;
-    }
-
-    .banner-content p {
-        font-size: 1em;
-        width: 300px;
-    }
-}
 
 /*----- Expert Section
 --------------------------------------------------------------*/
@@ -1998,5 +1978,126 @@ nav#navbar ul.menu-list {
 
     .portfolio-style figcaption {
         bottom: -75px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .main-logo a {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 900;
+        color: #fff;
+        margin: 0 auto;
+        padding-right: 210px;
+    }
+    #about .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+    #about .detail-entry {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #about .detail-entry .section-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #services .section-header p {
+        font-size: 1.4em;
+        width: initial;
+        margin: 0 auto;
+    }
+    .container-section-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #billboard .banner-content {
+        left: -35px;
+    }
+
+    .banner-content h2.section-title {
+        font-size: 2.5em;
+    }
+
+    .section-title {
+        font-size: 2.5em;
+    }
+
+    .banner-content p {
+        font-size: 1em;
+        width: 300px;
+    }
+
+    #services .section-header p {
+        font-size: 1.4em;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #testimonial blockquote {
+        font-size: 1.2em;
+        padding-bottom: 40px;
+    }
+    .post-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .post-list article{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #footer .col-md-8 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #footer .col-md-4 {
+        text-align: center;
+    }
+
+    .footer-logo {
+        display: flex;
+        margin-bottom: 1em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col-md-5 {
+        text-align: center;
+    }
+
+    .social-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5em;
+    }
+
+    .social-links li {
+        padding-right: 0px;
+    }
+    .copyright {
+        text-align: center;
     }
 }
