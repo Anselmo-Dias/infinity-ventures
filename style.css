@@ -1981,7 +1981,7 @@ nav#navbar ul.menu-list {
     }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 670px) {
     .main-logo a {
         text-align: center;
         font-size: 1.5em;
